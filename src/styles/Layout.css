@@ -1,0 +1,5 @@
+/* A class that is used to style the layout of the page. */
+.lmj-layout-inner {
+	display: flex;
+	flex-direction: row;
+}

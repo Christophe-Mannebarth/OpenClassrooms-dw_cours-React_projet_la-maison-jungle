@@ -1,0 +1,41 @@
+/* Setting the height and width of the image. */
+.lmj-plant-item-cover {
+	height: 220px;
+	width: 220px;
+	border-style:ridge;
+	border-width: 2px;
+	border-radius: 20px;
+	border-color: black;
+	object-fit: cover;
+}
+
+/* Setting the the `.lmj-plant-item` class. */
+.lmj-plant-item {
+	margin: 10px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	text-transform: capitalize;
+	position: relative;
+}
+
+/* Setting the cursor to a pointer. */
+.lmj-plant-item-carescale {
+	cursor: pointer;
+}
+
+
+/* Setting the position of the price. */
+.lmj-plant-item-price {
+	position: absolute;
+	border-style:solid;
+	border-radius: 20px 20px 20px 0;
+	border: 2px solid white;
+	background-color: #31b472;
+	color: white;
+	padding: 15px;
+	right: 2px;
+	top: 2px;
+	font-weight: 500;
+}

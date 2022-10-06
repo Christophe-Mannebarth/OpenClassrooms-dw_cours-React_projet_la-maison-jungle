@@ -1,0 +1,10 @@
+/* A class that is used to style the div that contains the categories. */
+.lmj-categories {
+	text-align: center;
+	padding-top: 30px;
+}
+
+/* Styling the select element. */
+.lmj-categories-select {
+	margin-right: 15px;
+}

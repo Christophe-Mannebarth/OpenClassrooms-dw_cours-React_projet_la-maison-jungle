@@ -1,0 +1,28 @@
+/* A class that is used to style the shopping list. */
+.lmj-shopping-list {
+	width: 100%;
+}
+
+/* Styling the list of plants. */
+.lmj-plant-list {
+	list-style-type: none;
+	padding: 32px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.lmj-plant-list-button {
+	background-color: #31b472;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	top: -200px;
+	display: flex;
+	align-items: center;
+}
+
+.lmj-plant-list-button:hover {
+	background-color: white;
+	color: #31b472;
+}

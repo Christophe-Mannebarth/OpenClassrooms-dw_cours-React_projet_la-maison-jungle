@@ -1,0 +1,40 @@
+/* Selecting the class `lmj-cart` and applying the following styles to it. */
+.lmj-cart {
+	color: white;
+	background-color: #31b572;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 300px;
+}
+
+/* Selecting the class `lmj-cart-add-button` and applying the following styles to it. */
+.lmj-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+/* Selecting the class `lmj-cart-toggle-button` and applying the following styles to it. */
+.lmj-cart-toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+	padding: 0;
+	color: white;
+	align-self: flex-end;
+}
+
+/* Selecting the class `lmj-cart-closed` and applying the following styles to it. */
+.lmj-cart-closed {
+	padding: 32px;
+	width: 300px;
+}
+
+/* Selecting the button inside the class `lmj-cart-closed` and applying the following styles to it. */
+.lmj-cart-closed > button {
+	color: black;
+}
